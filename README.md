@@ -1,8 +1,31 @@
-# React + Vite
+You are tasked with creating a simple React application called "Item List Manager" that displays a list of items and allows users to add new items to the list. The items will be displayed in an unordered list (<ul>), and there will be an input field along with a button to add new items to this list.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Detailed Requirements
+
+When the application loads, it should display an empty list.
+The input field should accept user text input.
+When the button is clicked:
+The text from the input field should be added to the list.
+The input field should be cleared.
+If the input field is empty and the button is clicked, nothing should be added to the list.
+
+
+Sample Interaction
+Initial State
+
+The list is empty.
+The input field is empty.
+User Action 1
+
+User types "First Item" in the input field.
+User clicks "Add Item" button.
+The list displays "First Item".
+User Action 2
+
+User types "Second Item" in the input field.
+User clicks "Add Item" button.
+The list displays:
+"First Item"
+"Second Item"
